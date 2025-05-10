@@ -1,0 +1,58 @@
+body{
+    min-height: 2500px;
+}
+
+.jumbotron{
+    padding-top: 5rem;
+    background-color: rgba(236, 246, 248, 0.986);
+}
+
+#sekolah{
+    border: 2px solid rgb(217, 233, 230);
+    animation: bounce 5s ease-in-out infinite;
+}
+
+@keyframes bounce{
+    0% {
+        transform: translateX(300px); /* mulai dari bawah */
+      }
+      60% {
+        transform: translateX(-30px); /* mantul ke atas */
+      }
+      80% {
+        transform: translateX(10px); /* mantul ke bawah sedikit */
+      }
+      100% {
+        transform: translateX(0); /* berhenti di posisi akhir */
+      }
+}
+
+#projek{
+    background-color: #a2d9ff;
+}
+
+
+.card{
+  animation: lompat 5s ease-in-out infinite;
+  animation-delay: 1s
+}
+
+@keyframes lompat{
+  0% {
+      transform: translateY(30px); /* mulai dari bawah */
+    }
+    60% {
+      transform: translateY(-30px); /* mantul ke atas */
+    }
+    80% {
+      transform: translateY(10px); /* mantul ke bawah sedikit */
+    }
+    100% {
+      transform: translateY(0); /* berhenti di posisi akhir */
+    }
+}
+
+
+section{
+  padding-top: 5rem;
+}
